@@ -1,0 +1,25 @@
+{
+  "name": "docker-proxy-supervisor",
+  "version": "0.0.1",
+  "description": "proxy-server using proxy-supervisor lib",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Andrey Chugunov (https://github.com/chugunov)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chugunov/docker-proxy-supervisor.git"
+  },
+  "homepage": "https://github.com/chugunov/docker-proxy-supervisor#readme",
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "dependencies": {
+    "config3": "^1.1.0",
+    "express": "^4.16.3",
+    "proxy-supervisor": "^0.9.5",
+    "pump": "^3.0.0"
+  }
+}
