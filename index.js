@@ -14,7 +14,7 @@ if (fs.existsSync(proxyFileName) === false) {
 
 const proxies = fs
   .readFileSync(proxyFileName, "utf-8")
-  .split("\n")
+  .split(/[\r\n]+/)
   .map(x => x.trim())
   .filter(x => x);
 
