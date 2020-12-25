@@ -1,6 +1,6 @@
 {
   "name": "docker-proxy-supervisor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "proxy-server using proxy-supervisor lib",
   "main": "index.js",
   "scripts": {
